@@ -16,6 +16,7 @@ const HomePage = () => {
           <li><Link to="/test">Test Page</Link></li>
           <li><Link to="/test-deferred">TestDeferredPage</Link></li>
           <li><Link to="/test-transition">TestTransitionPage</Link></li>
+          <li><Link to="/test-create-form-mutation">test-create-form-mutation</Link></li>
         </ul>
       </div>
     </div>
