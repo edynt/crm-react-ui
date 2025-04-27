@@ -14,6 +14,8 @@ const HomePage = () => {
           <li><Link to="/order-status">Order Status</Link></li>
           <li><Link to="/create-order">Create Order</Link></li>
           <li><Link to="/test">Test Page</Link></li>
+          <li><Link to="/test-deferred">TestDeferredPage</Link></li>
+          <li><Link to="/test-transition">TestTransitionPage</Link></li>
         </ul>
       </div>
     </div>
