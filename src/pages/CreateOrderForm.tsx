@@ -27,7 +27,8 @@ const CreateOrderForm = () => {
   }, []);
 
   const onSubmit = (data: OrderFormValues) => {
-    console.log('Form Data:', data);
+    console.log("Đang gửi đơn hàng...", data);
+    return new Promise((resolve) => setTimeout(resolve, 2000)); // Giả lập delay API
   };
   
   const handleResetForm = useCallback(() => {
