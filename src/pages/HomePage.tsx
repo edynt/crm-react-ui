@@ -17,6 +17,8 @@ const HomePage = () => {
           <li><Link to="/test-deferred">TestDeferredPage</Link></li>
           <li><Link to="/test-transition">TestTransitionPage</Link></li>
           <li><Link to="/test-create-form-mutation">test-create-form-mutation</Link></li>
+          <li><Link to="/test-custom-create-order">Test Create Order</Link></li>
+          <li><Link to="/test-custom-get-orders">Test Get Order</Link></li>
         </ul>
       </div>
     </div>

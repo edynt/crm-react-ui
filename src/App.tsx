@@ -13,6 +13,8 @@ import TestPage from "./pages/TestPage"; // Import TestPage
 import TestDeferredPage from "./pages/TestDeferredPage"; // Import TestPage
 import TestTransitionPage from "./pages/TestTransitionPage"; // Import TestPage
 import CreateOrderFormMutation from "./pages/CreateFormMutation"; // Import TestPage
+import CreateOrderPage from "./pages/CreateOrderPage"; // Import TestPage
+import OrdersListPage from "./pages/OrdersListPage"; // Import TestPage
 
 const AppRoutes = () => (
   <Router>
@@ -31,6 +33,8 @@ const AppRoutes = () => (
               <Route path="/test-deferred" element={<TestDeferredPage />} /> {/* Add route for TestDeferredPage */}
               <Route path="/test-transition" element={<TestTransitionPage />} /> {/* Add route for TestDeferredPage */}
               <Route path="/test-create-form-mutation" element={<CreateOrderFormMutation />} /> {/* Add route for TestDeferredPage */}
+              <Route path="/test-custom-create-order" element={<CreateOrderPage />} /> {/* Add route for TestDeferredPage */}
+              <Route path="/test-custom-get-orders" element={<OrdersListPage />} /> {/* Add route for TestDeferredPage */}
             </Routes>
           </OrderStatusProvider>
         </CartProvider>
